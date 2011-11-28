@@ -1,0 +1,13 @@
+%h1 Controlando o Arduino com Ruby + Sinatra
+
+%form{:action => "connect"}
+  %input{:type => "submit", :value => "Conectar ao Arduino"}
+
+%form{:action => "disconnect"}
+  %input{:type => "submit", :value => "Desconectar Arduino"}
+
+%form{:action => "led/turn_on"}
+  %input{:type => "submit", :value => "Ligar led"}
+
+%form{:action => "led/turn_off"}
+  %input{:type => "submit", :value => "Desligar led"}
